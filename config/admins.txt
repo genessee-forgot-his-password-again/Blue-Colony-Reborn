@@ -5,9 +5,5 @@
 # Ranks can be anything defined in admin_ranks.txt           ~Carn   #
 ######################################################################
 
-farfromthetsar - host
-woodentucker - gamemaster
-Jeff_139 - Moderator 
-WolfFang55 - Game Administrator
-IXIAragon - Moderator
-Ooglepunk - Game Administrator
+# not_a_user - Admin
+genessee - Host

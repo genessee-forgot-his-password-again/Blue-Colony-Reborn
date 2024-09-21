@@ -146,3 +146,20 @@
 			uniform.attach_accessory(null, tie)
 		else
 			qdel(tie)
+
+/decl/hierarchy/outfit/job/nanotrasen/centcom
+	name = "CentCom Official"
+	uniform = /obj/item/clothing/under/suit_jacket/charcoal
+	suit = /obj/item/clothing/accessory/jacket/charcoal
+	shoes = /obj/item/clothing/shoes/dress
+	head = /obj/item/clothing/head/beret/centcom/officer
+	id_pda_assignment = "Central Command Official"
+
+/decl/hierarchy/outfit/job/nanotrasen/centcom/commander
+	name = "CentCom Commander"
+	uniform = /obj/item/clothing/under/suit_jacket/charcoal
+	suit = /obj/item/clothing/accessory/jacket/charcoal
+	head = /obj/item/clothing/head/beret/centcom/captain
+	shoes = /obj/item/clothing/shoes/boots/jackboots
+	glasses = /obj/item/clothing/glasses/sunglasses/sechud
+	id_pda_assignment = "Central Command Commander"

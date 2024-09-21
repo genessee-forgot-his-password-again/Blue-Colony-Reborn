@@ -179,3 +179,32 @@
 
 	portal_whitelist = "cabinet_finance"
 */
+
+/datum/job/nanotrasen/centcom
+	title = "CentCom Official"
+	department_flag = DEPT_NANOTRASEN
+	faction = "City"
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "NanoTrasen High Command"
+
+	selection_color = "#1D1D4F"
+	idtype = /obj/item/weapon/card/id/nanotrasen/president
+	req_admin_notify = 1
+	access = list(access_president, access_vice_president, access_advisor, access_governor, access_cent_general, access_cent_thunder, \
+	access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter)
+
+	minimal_access = list(access_president, access_vice_president, access_advisor, access_governor, access_cent_general, access_cent_thunder, \
+	access_cent_medical, access_cent_living, access_cent_storage, access_cent_teleporter)
+	minimal_player_age = 0
+
+	wage = 2500
+	alt_titles = list()
+
+	alt_titles = list("CentCom Commander" = /decl/hierarchy/outfit/job/nanotrasen/centcom/commander)
+
+	minimum_character_age = 20
+	ideal_character_age = 50
+	outfit_type = /decl/hierarchy/outfit/job/nanotrasen/centcom
+
+	portal_whitelist = "cabinet_president"

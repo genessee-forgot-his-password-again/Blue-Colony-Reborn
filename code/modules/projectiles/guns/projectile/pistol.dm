@@ -275,8 +275,8 @@
 /obj/item/weapon/gun/projectile/pirate
 	name = "zip gun"
 	desc = "Little more than a barrel, handle, and firing mechanism, cheap makeshift firearms like this one are not uncommon in frontier systems."
-	icon_state = "sawnshotgun"
-	item_state = "sawnshotgun"
+	icon_state = "zipgun"
+	item_state = null
 	handle_casings = CYCLE_CASINGS //player has to take the old casing out manually before reloading
 	load_method = SINGLE_CASING
 	max_shells = 1 //literally just a barrel
@@ -309,7 +309,7 @@
 	..()
 
 /obj/item/weapon/gun/projectile/pirate/thug
-	desc = "Little more than a barrel, handle, and firing mechanism, cheap makeshift firearms like this one are not uncommon in Pollux underworld. Uses 12g rounds"
+	desc = "Little more than a barrel, handle, and firing mechanism, cheap makeshift firearms like this one are not uncommon in Pollux underworld."
 	ammo_type = /obj/item/ammo_casing/a12g
 
 /obj/item/weapon/gun/projectile/derringer

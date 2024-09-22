@@ -3,6 +3,7 @@
 	desc = "A weapon that uses advanced pulse-based beam generation technology to emit powerful laser blasts. Because of its complexity and cost, it is rarely seen in use except by specialists."
 	icon_state = "pulse"
 	item_state = null	//so the human update icon uses the icon_state instead.
+	wielded_item_state = "pulse-wielded"
 	slot_flags = SLOT_BELT|SLOT_BACK
 	force = 10
 	projectile_type = /obj/item/projectile/beam

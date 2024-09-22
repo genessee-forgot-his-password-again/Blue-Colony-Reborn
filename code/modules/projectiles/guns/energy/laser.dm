@@ -4,7 +4,6 @@
 	switch between standard fire and a more efficent but weaker 'suppressive' fire."
 	icon_state = "laser"
 	item_state = "laser"
-	wielded_item_state = "laser-wielded"
 	fire_delay = 8
 	slot_flags = SLOT_BELT|SLOT_BACK
 	w_class = ITEMSIZE_LARGE

@@ -10,13 +10,13 @@
 /datum/supply_pack/atmos/inflatable
 	name = "Inflatable barriers"
 	contains = list(/obj/item/weapon/storage/briefcase/inflatable = 3)
-	cost = 20
+	cost = 10
 	containertype = /obj/structure/closet/crate/engineering
 	containername = "Inflatable Barrier Crate"
 
 /datum/supply_pack/atmos/canister_empty
 	name = "Empty gas canister"
-	cost = 7
+	cost = 5
 	containername = "Empty gas canister crate"
 	containertype = /obj/structure/largecrate
 	contains = list(/obj/machinery/portable_atmospherics/canister)
@@ -44,7 +44,7 @@
 
 /datum/supply_pack/atmos/canister_phoron
 	name = "Phoron gas canister"
-	cost = 60
+	cost = 25
 	containername = "Phoron gas canister crate"
 	containertype = /obj/structure/closet/crate/secure/large
 	access = access_atmospherics
@@ -69,7 +69,7 @@
 /datum/supply_pack/atmos/air_dispenser
 	contains = list(/obj/machinery/pipedispenser/orderable)
 	name = "Pipe Dispenser"
-	cost = 25
+	cost = 20
 	containertype = /obj/structure/closet/crate/secure/large
 	containername = "Pipe Dispenser Crate"
 	access = access_atmospherics
@@ -77,7 +77,7 @@
 /datum/supply_pack/atmos/disposals_dispenser
 	contains = list(/obj/machinery/pipedispenser/disposal/orderable)
 	name = "Disposals Pipe Dispenser"
-	cost = 25
+	cost = 20
 	containertype = /obj/structure/closet/crate/secure/large
 	containername = "Disposal Dispenser Crate"
 	access = access_atmospherics
@@ -103,6 +103,6 @@
 			/obj/item/clothing/head/helmet/space/emergency = 4,
 			/obj/item/clothing/mask/gas = 4
 			)
-	cost = 35
+	cost = 30
 	containertype = /obj/structure/closet/crate/internals
 	containername = "Emergency crate"

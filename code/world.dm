@@ -567,9 +567,6 @@ var/world_topic_spam_protect_time = world.timeofday
 	if (config && config.server_name)
 		s += "<b>[config.server_name]</b> &#8212; "
 
-	s += "<b> Running Forked Blue Colony Reborn Code</b>";
-	s += " | Persistent bank accounts, plots, and injuries"
-
 	var/list/features = list()
 	if(SSelections && SSelections.current_president)
 		features += "<br><b>Current President:</b> [SSelections.current_president.name]"

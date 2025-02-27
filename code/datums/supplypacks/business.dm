@@ -10,49 +10,49 @@
 /datum/supply_pack/business/eftpos
 	contains = list(/obj/item/device/eftpos)
 	name = "EFTPOS scanner"
-	cost = 100
+	cost = 15
 	containertype = /obj/structure/closet/crate
 	containername = "EFTPOS crate"
 
 /datum/supply_pack/business/cash_register
 	contains = list(/obj/machinery/cash_register)
 	name = "Cash Register"
-	cost = 500
+	cost = 25
 	containertype = /obj/structure/closet/crate
 	containername = "Cash Register crate"
 
 /datum/supply_pack/business/retail_scanner
 	contains = list(/obj/item/device/retail_scanner)
 	name = "Retail Scanner"
-	cost = 250
+	cost = 10
 	containertype = /obj/structure/closet/crate
 	containername = "Retail Scanner crate"
 
 /datum/supply_pack/business/price_tagger
 	contains = list(/obj/item/device/price_tagger)
 	name = "Price Tagger"
-	cost = 100
+	cost = 10
 	containertype = /obj/structure/closet/crate
 	containername = "Price Tagger crate"
 
 /datum/supply_pack/business/price_scanner
 	contains = list(/obj/item/device/price_scanner)
 	name = "Price Scanner"
-	cost = 100
+	cost = 10
 	containertype = /obj/structure/closet/crate
 	containername = "Price Scanner"
 
 /datum/supply_pack/business/business_sign
 	contains = list(/obj/machinery/modular_sign/business)
 	name = "Business Sign"
-	cost = 1500
+	cost = 80
 	containertype = /obj/structure/largecrate
 	containername = "Business Sign"
 
 /datum/supply_pack/business/business_money_display
 	contains = list(/obj/machinery/status_display/money_display)
 	name = "Business Money Display"
-	cost = 2000
+	cost = 80
 	containertype = /obj/structure/largecrate
 	containername = "Business Money Display"
 
@@ -71,14 +71,14 @@
 	/obj/item/stack/marker_beacon/thirty
 	)
 	name = "Mining Starter Kit"
-	cost = 1865
+	cost = 100
 	containertype = /obj/structure/closet/crate
 	containername = "Mining Starter Kit"
 
 /datum/supply_pack/business/business_stamps
 	contains = list(/obj/item/weapon/stamp/business = 3)
 	name = "Business Stamps"
-	cost = 75
+	cost = 15
 	containertype = /obj/structure/closet/crate
 	containername = "Business Stamps"
 
